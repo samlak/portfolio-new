@@ -3,7 +3,7 @@ import { Code, Brain, Users, Trophy, ArrowDownCircle } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="about" className="lg:min-h-screen min-h-[65vh] bg-gradient-to-b from-[#1a0b2e] to-[#2f1c4a] flex items-center justify-center px-4 relative overflow-hidden">
+    <section id="about" className="min-h-screen bg-gradient-to-b from-[#1a0b2e] to-[#2f1c4a] flex items-center justify-center px-4 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 -left-1/4 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl animate-pulse"></div>
